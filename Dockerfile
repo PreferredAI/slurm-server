@@ -9,6 +9,7 @@ RUN dnf install -y \
     epel-release \
     && dnf install -y \
     slurm-slurmctld \
+    slurm-slurmdbd \
     supervisor \
     && dnf clean all
 
